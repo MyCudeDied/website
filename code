@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first website</h1>
+<h2>Click on the buttons below!</h2>
+<p id="font"> Sup? </p>
+<p id="answer">The reply to the buttons will be displayed here</p>
+
+<button type="button"
+ onclick='document.getElementById("answer").innerHTML = "good day to you too!"'
+ >Click to say hi</button>
+
+<button type="button"
+ onclick='document.getElementById("answer").innerHTML = "See you next time!"'
+ >Click to say bye!</button>
+
+<p>
+
+<button type="button"
+ onclick='document.getElementById("answer").innerHTML = "Never gonna give you up, never gonna let you down"'
+ >Click to get rick rolled!</button>
+
+<p>
+
+<button type="button"
+ onclick="document.getElementById('answer').style.display='none'"
+ >Clear</button>
+
+<button type="button"
+ onclick="document.getElementById('answer').style.display='Block'"
+ >Show</button>
+
+<p>
+
+<button type="button"
+ onclick="document.getElementById('font').style.fontSize='50px'"
+ >click to make "Sup?" bigger</button>
+<p>
+<a href="https://mycubedied.netlify.app"<a>This is eaglercraft</a>
+<p>
+<a href="https://shockedshells.netlify.app/"<a>shell shockers (work in progress)</a>
+<p>
+<p id="demo">Like it?</p>
+
+<script>
+document.getElementById('demo').style.fontSize='50px';
+</script>
+<p>
+<b>Made by my_cube_died (Ben)</b>
+<footer><small><b>Disclaimer: I do not own eaglercraft nor did I make eaglercraft. I took this code from github to practice making websites.</footer></small></b>
+
+</body>
+</html> 
